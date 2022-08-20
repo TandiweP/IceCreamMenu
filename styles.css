@@ -1,4 +1,19 @@
 body {
   background-color: powderblue;
-  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.page-heading {
+  font-size: 8rem;
+  font-family: "Fredericka the Great";
+}
+
+body > h2 {
+  font-family: "Pacifico", cursive;
+}
+
+button {
+  background-color: salmon;
+  font-family: "Fredericka the Great", cursive;
 }
