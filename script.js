@@ -16,7 +16,7 @@ export default function selectIceCream () {
     // } else {
     //     return alert("All out, sucka")
     // }
-    console.log("Button-clicked");
+    console.log("Clicked");
 
     };
 
