@@ -16,4 +16,10 @@ body > h2 {
 button {
   background-color: salmon;
   font-family: "Fredericka the Great", cursive;
+  height: 3rem;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  border-color: white;
+  border-width: 0.1rem;
+  border-radius: 1rem;
 }

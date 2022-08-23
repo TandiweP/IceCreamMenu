@@ -1,5 +1,10 @@
 
-export default function selectIceCream () {
+function selectIceCream () {
+    console.log("icecream");
+    // const vanillaButton = document.querySelector(".vanilla");
+    // function clickedMessage () { console.log("vanilla") }; 
+    // vanillaButton.onClick = clickedMessage;
+
     // const vanilla = true;
     // const chocolate = false;
     // const rockyRoad = true;
@@ -16,9 +21,11 @@ export default function selectIceCream () {
     // } else {
     //     return alert("All out, sucka")
     // }
-    console.log("Clicked");
+    // console.log(vanillaButton);
 
     };
+
+    
 
 
 
