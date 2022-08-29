@@ -23,3 +23,40 @@ button {
   border-width: 0.1rem;
   border-radius: 1rem;
 }
+
+body > h1 {
+  font-family: "Fredericka the Great";
+  font-size: 7rem;
+  color: white;
+  margin-left: auto;
+}
+
+table {
+  margin: auto;
+  margin-top: 10vh;
+}
+
+table > thead {
+  font-size: 2rem;
+  color: black;
+  font-family: "Pacifico", cursive;
+}
+
+th {
+  width: 15vw;
+}
+
+table > tbody {
+  font-family: "Pacifico";
+  color: rgb(237, 248, 252);
+  background-color: salmon;
+}
+
+td {
+  border-radius: 5rem;
+}
+
+footer {
+  margin-top: 40vh;
+  color: white;
+}
