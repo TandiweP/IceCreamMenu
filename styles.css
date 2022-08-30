@@ -4,6 +4,23 @@ body {
   text-align: center;
 }
 
+.nav-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Pacifico", cursive;
+  font-size: smaller;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+/* .link :hover {
+  color: black;
+} */
+
 .page-heading {
   font-size: 8rem;
   font-family: "Fredericka the Great";
@@ -59,4 +76,26 @@ td {
 footer {
   margin-top: 40vh;
   color: white;
+}
+
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 1rem;
+  /* border: solid black; */
+  max-width: 25vw;
+  padding: 3rem;
+}
+
+.form-name,
+.form-flavor {
+  font-family: "Pacifico";
+}
+
+#name,
+#flavor-request {
+  color: salmon;
 }
