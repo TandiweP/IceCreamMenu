@@ -17,9 +17,9 @@ body {
   color: white;
 }
 
-/* .link :hover {
-  color: black;
-} */
+a:hover {
+  color: salmon;
+}
 
 .page-heading {
   font-size: 8rem;
@@ -90,6 +90,12 @@ form {
   padding: 3rem;
 }
 
+::placeholder {
+  color: rgb(247, 132, 119);
+  text-align: center;
+  font-size: smaller;
+}
+
 .form-name,
 .form-flavor {
   font-family: "Pacifico";
@@ -98,4 +104,6 @@ form {
 #name,
 #flavor-request {
   color: salmon;
+  border-radius: 0.25rem;
+  border: white;
 }
