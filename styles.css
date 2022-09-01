@@ -12,9 +12,15 @@ body {
   font-size: smaller;
 }
 
-.link {
+.link-home,
+.link-form,
+.link-arrow {
   text-decoration: none;
   color: white;
+}
+
+.link-arrow {
+  font-size: 5rem;
 }
 
 a:hover {
@@ -39,6 +45,14 @@ button {
   border-color: white;
   border-width: 0.1rem;
   border-radius: 1rem;
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(246, 144, 133);
+  opacity: 0.5;
+  cursor: grab;
+  height: 3.1rem;
 }
 
 body > h1 {
