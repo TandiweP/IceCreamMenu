@@ -48,9 +48,8 @@ button {
 }
 
 button:hover {
-  color: white;
-  background-color: rgb(246, 144, 133);
-  opacity: 0.5;
+  background-color: white;
+  opacity: 0.9;
   cursor: grab;
   height: 3.1rem;
 }
@@ -120,4 +119,8 @@ form {
   color: salmon;
   border-radius: 0.25rem;
   border: white;
+}
+
+.form-button {
+  margin: auto;
 }
