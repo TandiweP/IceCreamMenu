@@ -136,16 +136,19 @@ form {
 }
 
 .form-size {
-  display: flex;
-  justify-content: space-between;
-  font-weight: 900;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+  margin-bottom: 2vh;
 }
 
 #size {
   color: black;
   font-family: pacifico;
   font-size: 1rem;
+  margin-bottom: -1vh;
 }
+
 .form-button {
   margin: auto;
 }
@@ -153,5 +156,6 @@ form {
 #small,
 #medium,
 #large {
-  color: salmon;
+  color: white;
+  font-weight: bold;
 }
