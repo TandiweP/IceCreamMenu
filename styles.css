@@ -13,7 +13,8 @@ body {
 }
 
 .link-table,
-.link-form,
+.link-order,
+.link-flavor-form,
 .link-arrow {
   text-decoration: none;
   color: white;
@@ -111,18 +112,33 @@ form {
   font-size: smaller;
 }
 
-.form-name,
-.form-flavor {
+.flavor-form-name,
+.flavor-form-flavor,
+.form-first-name,
+.form-last-name,
+.form-email,
+.form-order-flavor {
   font-family: "Pacifico";
 }
 
 #name,
-#flavor-request {
+#flavor-request,
+#first-name,
+#last-name,
+#email,
+#order-flavor,
+#small,
+#medium,
+#large {
   color: salmon;
   border-radius: 0.25rem;
   border: white;
 }
 
+.form-size {
+  font-family: Pacifico;
+  font-size: larger;
+}
 .form-button {
   margin: auto;
 }

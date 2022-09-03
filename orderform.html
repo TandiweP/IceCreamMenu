@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="link-arrow">&#8592</a>
+    </nav>
+    <h1>Order Here</h1>
+
+    <form action="/order">
+        <!-- first name -->
+        <div class="form-first-name">
+            <label for="first-name">First Name</label>
+            <br>
+            <input id="first-name" type="text" name="first name" required>
+        </div>
+        <!-- last name -->
+        <div class="form-last-name">
+            <label for="last-name">Last Name</label>
+            <br>
+            <input id="last-name" type="text" name="last name" required>
+        </div>
+        <!-- email -->
+        <div class="form-email">
+            <label for="email">Email Address</label>
+            <br>
+            <input id="email" type="email" name="email" required>
+        </div>
+        <!--Select Flavor-->
+        <div class="form-order-flavor">
+            <label for="order-flavor">Please Select A Flavor</label>
+            <br>
+            <select id="order-flavor" name="orderedflavor" required>
+                <option value="example">--Please Select a Flavor--</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="Rockyroad">Rocky Road</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="pbcup">Peanut Butter Cup</option>
+                <option value="pistachio">Pistachio</option>
+            </select>
+        </div>
+        <!--Select a Size-->
+        <div class="form-size">
+            <p id="size">Size</p>
+            
+            <input for="small" type="radio" name="small">
+            <label id="small">Small</label>
+            <br>
+            <input for="medium" type="radio" name="medium">
+            <label id="medium">Medium</label>
+            <br>
+            <input for="large" type="radio" name="large">
+            <label id="large">Large</label>
+        </div>
+        <button class = "form-button">Sumbit</button>
+</form>
+</body>
+</html>
