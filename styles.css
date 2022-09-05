@@ -15,21 +15,30 @@ body {
 
 .link-table,
 .link-order,
-.link-flavor-form,
-.link-arrow {
+.link-flavor-form {
   text-decoration: none;
   color: white;
   border: dotted white;
   padding: 1rem;
 }
 
-.link-arrow {
-  font-size: 5rem;
-}
-
-a:hover {
+.link-table:hover,
+.link-order:hover,
+.link-flavor-form:hover {
   color: salmon;
   background-color: white;
+}
+
+.link-arrow {
+  text-decoration: none;
+  color: white;
+  font-size: 5rem;
+  background-color: none;
+  border: none;
+}
+
+.link-arrow:hover {
+  color: salmon;
 }
 
 .page-heading {
