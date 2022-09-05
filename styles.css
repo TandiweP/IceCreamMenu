@@ -6,7 +6,8 @@ body {
 
 .nav-home {
   display: flex;
-  flex-direction: column;
+  margin-top: 2vh;
+
   justify-content: space-around;
   font-family: "Pacifico", cursive;
   font-size: smaller;
@@ -18,6 +19,8 @@ body {
 .link-arrow {
   text-decoration: none;
   color: white;
+  border: dotted white;
+  padding: 1rem;
 }
 
 .link-arrow {
@@ -26,6 +29,7 @@ body {
 
 a:hover {
   color: salmon;
+  background-color: white;
 }
 
 .page-heading {
@@ -39,23 +43,20 @@ body > h2 {
 
 button {
   background-color: white;
-  font-family: "Fredericka the Great", cursive;
+  opacity: 70%;
+  font-family: "Quicksand", sans-serif;
   height: 3rem;
   margin-bottom: 2rem;
   margin-right: 1rem;
-  border-color: white;
-  border-width: 0.1rem;
+  border: none;
   border-radius: 1rem;
   width: 20vw;
 }
 
 button:hover {
-  background-color: salmon;
-  color: black;
-  font-size: 1rem;
-  opacity: 0.9;
+  color: salmon;
+  opacity: 0.98;
   cursor: grab;
-  height: 3.1rem;
 }
 
 body > h1 {
@@ -154,9 +155,10 @@ form {
   margin: auto;
 }
 
-#small,
-#medium,
-#large {
+.label-small,
+.label-medium,
+.label-large {
   color: white;
-  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+  font-size: small;
 }
