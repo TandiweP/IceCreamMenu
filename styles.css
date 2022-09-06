@@ -101,8 +101,9 @@ td {
 }
 
 footer {
-  margin-top: 40vh;
+  margin-top: 30vh;
   color: white;
+  font-family: "Quicksand", sans-serif;
 }
 
 form {
