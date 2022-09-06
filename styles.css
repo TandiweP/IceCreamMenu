@@ -68,6 +68,16 @@ button:hover {
   cursor: grab;
 }
 
+.main button {
+  width: 10vw;
+  height: 10vh;
+  border-radius: 50%;
+}
+
+.main button:hover {
+  font-size: 1rem;
+}
+
 body > h1 {
   font-family: "Fredericka the Great";
   font-size: 7rem;
