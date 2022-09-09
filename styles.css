@@ -182,3 +182,7 @@ form {
   font-family: "Quicksand", sans-serif;
   font-size: small;
 }
+
+::selection {
+  background-color: rgb(255, 157, 219);
+}
