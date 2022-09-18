@@ -7,7 +7,6 @@ body {
 .nav-home {
   display: flex;
   margin-top: 2vh;
-
   justify-content: space-around;
   font-family: "Pacifico", cursive;
   font-size: smaller;
@@ -15,6 +14,7 @@ body {
 
 .link-table,
 .link-order,
+.link-icecreamshape,
 .link-flavor-form {
   text-decoration: none;
   color: white;
@@ -24,6 +24,7 @@ body {
 
 .link-table:hover,
 .link-order:hover,
+.link-icecreamshape:hover,
 .link-flavor-form:hover {
   color: salmon;
   background-color: white;
@@ -186,3 +187,34 @@ form {
 ::selection {
   background-color: rgb(255, 157, 219);
 }
+
+/* shapes fun:  */
+
+.shapemain {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  height: 20rem;
+  width: 20rem;
+  margin-top: 5%;
+  margin-bottom: 50%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  background-color: pink;
+  transition: 3s;
+}
+
+/* .cone {
+  width: 15rem;
+  height: 15rem;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+  background-color: white;
+} */
