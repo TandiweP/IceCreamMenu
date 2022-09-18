@@ -191,16 +191,18 @@ form {
 /* shapes fun:  */
 
 .shapemain {
-  background-color: green;
+  /* background-color: green; */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }
 
 .circle {
   height: 20rem;
   width: 20rem;
   margin-top: 5%;
-  margin-bottom: 50%;
+  margin-bottom: 10%;
   background-color: white;
   border-radius: 50%;
 }
@@ -208,13 +210,20 @@ form {
 .circle:hover {
   background-color: pink;
   transition: 3s;
+  margin-top: 15%;
+  margin-bottom: 05%;
+  /* margin-bottom: 20%; */
+  /* border-top-left-radius: 90%;
+  border-top-right-radius: 90%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%; */
 }
 
-/* .cone {
-  width: 15rem;
-  height: 15rem;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 100px solid red;
+.cone {
+  width: 20rem;
+  border-left: 100px solid powderblue;
+  border-right: 100px solid powderblue;
+  border-top: 100px solid rgb(228, 228, 153);
   background-color: white;
-} */
+  margin-bottom: none;
+}
