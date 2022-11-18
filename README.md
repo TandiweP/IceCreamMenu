@@ -1,6 +1,6 @@
 # IceCreamMenu
 
-![Image](horrormoviesnapshot.png)
+![Image](icecreamshop.png)
 
 # Description: 
 Vanilla Js and Vanilla Ice Cream meet to bring you a delightful menu.  The features include a price list, order form, flavor request form, and css animation. 
