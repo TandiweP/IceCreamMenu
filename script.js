@@ -1,6 +1,8 @@
 
 function selectIceCream () {
     console.log("icecream selected");
+
+
     // const vanillaButton = document.querySelector(".vanilla");
     // function clickedMessage () { console.log("vanilla") }; 
     // vanillaButton.onClick = clickedMessage;
