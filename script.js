@@ -35,10 +35,32 @@ function selectIceCream () {
 
 //Order Form JS: 
 const form = document.querySelector("#orderForm");
+const inputFirst = document.querySelector("#first-name");
+const inputLast = document.querySelector("#last-name");
+const inputEmail = document.querySelector("#email");
+const inputFlavor = document.querySelector("#order-flavor");
+// const inputSize = document.querySelector("input[name=size]:checked");
+const inputSizeSmall = document.querySelector("#small");
+const inputSizeMedium = document.querySelector("#medium");
+const inputSizeLarge = document.querySelector("#large");
+
+
+
 form.addEventListener("submit", function (e) {
     e.preventDefault();
     console.log("Submitted Flavor Form");
+    
+    alert(`Thank You, ${inputFirst.value} ${inputLast.value}, we will process your order of 
+    a ${findSize()} ${inputFlavor.value} icecream. You will receive an email at ${inputEmail.value} when it is ready.`)
 });
+
+function findSize(){
+    if (inputSizeSmall.checked === true) {
+        return inputSizeSmall.value;
+    } else if (inputSizeMedium.checked === true) {
+        return inputSizeMedium.value;
+    } else return inputSizeLarge.value;
+};
 
 
 
