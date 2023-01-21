@@ -51,6 +51,7 @@ form.addEventListener("submit", function (e) {
     console.log("Submitted Flavor Form");
     alert(`Thank You, ${inputFirst.value} ${inputLast.value}, we will process your order of 
     a ${findSize()} ${inputFlavor.value} icecream. You will receive an email at ${inputEmail.value} when it is ready.`)
+    
     clearForm();
     
 });
@@ -68,9 +69,9 @@ function clearForm() {
     inputLast.value = '';
     inputEmail.value = '';
     inputFlavor.value = '';
-    inputSizeSmall = unchecked;
-    inpuSizeMedium = unchecked;
-    inputSizeLarge = unchecked;
+    inputSizeSmall.checked = false;
+    inputSizeMedium.checked = false;
+    inputSizeLarge.checked = false;
 }
 
 
