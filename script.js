@@ -49,9 +49,10 @@ const inputSizeLarge = document.querySelector("#large");
 form.addEventListener("submit", function (e) {
     e.preventDefault();
     console.log("Submitted Flavor Form");
-    
     alert(`Thank You, ${inputFirst.value} ${inputLast.value}, we will process your order of 
     a ${findSize()} ${inputFlavor.value} icecream. You will receive an email at ${inputEmail.value} when it is ready.`)
+    clearForm();
+    
 });
 
 function findSize(){
@@ -62,7 +63,15 @@ function findSize(){
     } else return inputSizeLarge.value;
 };
 
-
+function clearForm() {
+    inputFirst.value = '';
+    inputLast.value = '';
+    inputEmail.value = '';
+    inputFlavor.value = '';
+    inputSizeSmall = unchecked;
+    inpuSizeMedium = unchecked;
+    inputSizeLarge = unchecked;
+}
 
 
 
