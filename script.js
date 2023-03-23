@@ -72,10 +72,14 @@ function clearForm() {
     inputSizeSmall.checked = false;
     inputSizeMedium.checked = false;
     inputSizeLarge.checked = false;
-}
+};
 
 
+// function addResponse() {
+//     const newOrder = document.createElement('p');
+//     newOrder.append("Success");
 
+// };
 
 
 
